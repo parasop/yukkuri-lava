@@ -1,0 +1,15 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "script": {
+    "start": "node -r dotenv/config ./src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "glob": "^8.0.3",
+    "poru": "^3.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
